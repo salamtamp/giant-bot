@@ -17,7 +17,7 @@ const settings = {
 };
 
 const app = express();
-const portNumber = 3010;
+const portNumber = 5000;
 const { line, mongodb } = settings;
 const { token: channelToken } = line;
 const { uri: mongoUri } = mongodb;
